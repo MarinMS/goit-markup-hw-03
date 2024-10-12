@@ -107,6 +107,7 @@ address {
 
 .header-navigation {
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -142,6 +143,7 @@ address {
 }
 
 .header-contacts {
+  display: flex;
 }
 
 .header-contacts-list {
@@ -199,7 +201,8 @@ address {
   border: none;
   border-radius: 4px;
   margin: 0 auto;
-  display: flex;
+  display: block;
+  min-width: 169px;
 }
 
 .hero-btn:hover {
@@ -255,7 +258,6 @@ address {
   background-color: #fff;
   text-align: center;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -263,12 +265,17 @@ address {
 .team-img {
 }
 
+.team-info {
+  padding: 32px 0;
+}
+
 .team-subtitle {
   margin-bottom: 8px;
-  margin-top: 32px;
+  text-align: center;
 }
 
 .team-text {
+  text-align: center;
 }
 
 /* ---------------------------PORTFOLIO----------------------------- */
@@ -293,7 +300,6 @@ address {
 .card-info {
   display: flex;
   flex-direction: column;
-  gap: 8px;
   padding: 32px 16px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
@@ -304,6 +310,7 @@ address {
 }
 
 .portfolio-subtitle {
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -316,6 +323,8 @@ address {
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-span {
@@ -325,5 +334,4 @@ address {
 .footer-text {
   color: #f4f4fd;
   max-width: 264px;
-  margin-top: 16px;
 }

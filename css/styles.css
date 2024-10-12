@@ -96,7 +96,6 @@ address {
 
 /* ---------------------------HEADER----------------------------- */
 .header {
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -124,6 +123,7 @@ address {
 }
 
 .header-item {
+  padding: 24px 0;
 }
 
 .header-item-link {
@@ -151,6 +151,7 @@ address {
 }
 
 .header-contacts-item {
+  padding: 24px 0;
 }
 
 .header-contacts-link {

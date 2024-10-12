@@ -100,7 +100,7 @@ address {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-inner {
+.container-header {
   display: flex;
   justify-content: space-between;
 }
@@ -143,7 +143,6 @@ address {
 }
 
 .header-contacts {
-  display: flex;
 }
 
 .header-contacts-list {
